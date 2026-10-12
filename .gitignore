@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+/vendor/
+/.idea/
+/.vscode/
+*.log
+*.dump
+/database/local/
