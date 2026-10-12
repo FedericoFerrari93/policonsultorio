@@ -16,7 +16,7 @@ $stmtM->execute();
 $medicos = $stmtM->fetchAll();
 
 // Obtener Especialidades
-$queryEsp = "SELECT id_especialidad, nombre_specialidad FROM especialidades ORDER BY nombre_specialidad ASC";
+$queryEsp = "SELECT id_especialidad, nombre_especialidad FROM especialidades ORDER BY nombre_especialidad ASC";
 $stmtE = $db->prepare($queryEsp);
 $stmtE->execute();
 $especialidades = $stmtE->fetchAll();
